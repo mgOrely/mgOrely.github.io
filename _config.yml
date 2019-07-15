@@ -1,1 +1,72 @@
-theme: jekyll-theme-hacker
+# Site settings
+title : mg's Blog
+head_title : mg的博客
+description: mg的博客，关于技术
+tagline: 众里寻他千百度。蓦然回首，那人却在，灯火阑珊处。
+url:
+author:
+    name: mg
+    github: mgOrely
+    email: liumei0606@qq.com
+    twitter:
+    facebook:
+    weibo:
+    zhihu:
+    wiki: wiki
+    stackoverflow:
+atom_path: /atom.xml
+rss_path: /rss.xml
+donate_url:
+
+# Comment
+comments:
+  disqus:
+    name: mg
+    rcomments:
+        # Number of comments to show
+        num: 8
+        # Hide moderators' comments (1 for hidden, 0 for disabled)
+        hide_mods: 0
+        # Hide display images (1 for hidden, 0 for shown)
+        hide_avatars: 1
+        # Avatar size in pixels (32 by default)
+        avatar_size: 32
+        # Character-length of the excerpt (1000 by default)
+        excerpt_length: 20
+analytics:
+    cnzz:
+        uid: 1254858699
+
+# Outputting
+permalink: /:categories/:title
+paginate_path: /page:num
+paginate: 15
+timezone: Asia/Shanghai
+
+# Handling Reading
+safe:         false
+include:      []
+exclude:      [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+keep_files:   []
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+plugins:   [jekyll-paginate]
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Backwards-compatibility
+relative_permalinks: false
