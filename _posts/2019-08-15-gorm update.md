@@ -3,7 +3,7 @@ layout: post
 title: "gorm update"
 description: "gorm update"
 keywords: "gorm update"
-category: "go gorm"
+category: "golang"
 tags: [go,gorm,update]
 ---
 

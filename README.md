@@ -22,7 +22,7 @@ mg's Blog
 ```
 
 ### 网页预览
-在次文件夹内输入如下命令行：
+在此文件夹内输入如下命令行：
 
 ```bash
  rake preview
@@ -32,6 +32,12 @@ mg's Blog
 
 ```bash
  jekyll build -w
+```
+
+或者：
+
+```bash
+ jekyll serve
 ```
 
 然后用浏览器打开 [127.0.0.1:4000](127.0.0.1:4000)

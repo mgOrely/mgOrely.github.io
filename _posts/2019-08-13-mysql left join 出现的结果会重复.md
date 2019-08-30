@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "mysql"
+title: "mysql left join 出现的结果会重复"
 description: "mysql"
 keywords: "mysql left join"
-category: "数据库 mysql"
+category: "mysql"
 tags: [数据库,mysql,left join]
 ---
 
